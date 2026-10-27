@@ -39,4 +39,4 @@ $s.Save()
 sh linux-setup.sh
 ```
 
-`ddcutil` 설치, i2c 접근 권한 설정, XFCE에 Ctrl+Alt+M 바인딩까지 한다. 끝나면 로그아웃 후 다시 로그인.
+`ddcutil` 설치, i2c 접근 권한 설정, XFCE에 Ctrl+Alt+M 바인딩까지 한다. NVIDIA 독점 드라이버가 로드돼 있으면 DDC/CI용 드라이버 옵션(`RMUseSwI2c`)도 넣는다. 끝나면 재부팅.
